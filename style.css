@@ -34,7 +34,7 @@ header{
 .form {
     display: flex;
     
-    width: 100%;
+    width: 90%;
 }
 
 .description h1{
@@ -99,11 +99,26 @@ header{
     margin: 5% 0;
 }
 
+@media (min-width:750px) {
+    .cont{
+        width: 750px;
+    }
+
+}
 @media (max-width:750px) {
-    .flexbox{
+    .form,.cont{
+        width:300px;
+
+    }
+    .flex{
+        width: 300px;
+    }
+    /* .flexbox{
         width: 750px;
     }
     header{
         width: 750px;
     }
+
+} */
 }
